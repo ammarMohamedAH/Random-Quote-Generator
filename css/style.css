@@ -1,0 +1,26 @@
+body {
+  background-image: url(../image/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.bg-overly {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.holder {
+  border: 2px solid white;
+  width: 90%;
+}
+@media (min-width: 850px) {
+  .holder {
+    height: 400px;
+  }
+}
+@media (min-width: 735px) {
+  .holder {
+    width: 50%;
+  }
+}
+button {
+  width: fit-content;
+}
